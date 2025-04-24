@@ -35,5 +35,16 @@
 }
 
 body{
-  background-color: red;
+  background-color: var(--gray-300);
+  font-family: var(--font-family-il);
+  color: var(--gray-400);
+  font: var(--text-sm);
+}
+
+/* class */
+.container{
+  max-width: 1366px;
+  padding: 120px 163px 183px;
+  margin-inline: auto;
+  border: solid;
 }

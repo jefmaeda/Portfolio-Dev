@@ -1,0 +1,14 @@
+header{
+  background-image: url(../assects/images/Background_Intro.png);
+  background-size: cover;
+
+  #hero-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    gap: 54px;
+  }
+}
+
