@@ -1,14 +1,56 @@
 header{
   background-image: url(../assects/images/Background_Intro.png);
   background-size: cover;
+  border: solid;
 
   #hero-info{
-    display: flex;
+    border: solid;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
     text-align: center;
+    max-width: 680px;
+    margin-inline: auto;
 
     gap: 54px;
+
+    #avatar{
+      margin-inline: auto;
+      width: 112px;
+      height: 112px;
+      position: relative;
+      img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        border: solid var(--red);
+      }
+      span{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        bottom: 0;
+        right: 10px;
+        background-image: url(../assects/icons/Code.svg);
+        background-size: contain;
+      }
+    }
+    
+
+  }
+
+  #info{
+    gap: 20px;
+    #title{
+        gap: 8px;
+
+      span{
+        color: var(--red);
+      }
+      h1{
+        color: var(--gray-600);
+      }
+    }
   }
 }
 
