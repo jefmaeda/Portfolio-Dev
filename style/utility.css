@@ -8,3 +8,6 @@
 .title-lg{
   font: var(--title-lg);
 }
+.direction-row{
+  flex-direction: row;
+}

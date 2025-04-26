@@ -41,15 +41,21 @@ body{
   font: var(--text-sm);
 }
 
+svg{
+  width: 24px;
+  height: 24px;
+}
+
 /* class */
 .container{
   max-width: 1366px;
-  padding: 120px 163px 183px;
+  padding-inline: 120px;
   margin-inline: auto;
 }
 
 .flex{
-  display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }

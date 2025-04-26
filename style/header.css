@@ -1,13 +1,10 @@
 header{
   background-image: url(../assects/images/Background_Intro.png);
   background-size: cover;
-  border: solid;
+  gap: 80px;
+  padding-block: 120px 0;
 
   #hero-info{
-    border: solid;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
     text-align: center;
     max-width: 680px;
     margin-inline: auto;
@@ -52,5 +49,39 @@ header{
       }
     }
   }
-}
 
+  #tags{
+    gap: 16px;
+
+    div{
+      gap: 8px;
+      padding: 8px 16px;
+      border-radius: 999px;
+      background-color: var(--gray-300);
+    }
+
+    #html svg path{
+      fill: var(--red);
+    }
+
+    #css svg path{
+      fill: var(--blue)
+    }
+
+    #js svg path{
+      fill: var(--yellow);
+    }
+
+    #react svg path{
+      fill: var(--blue);
+    }
+
+    #nodejs svg path{
+      fill: var(--green);
+    }
+  }
+  #arrow{
+    margin-bottom: 54px;
+  }
+
+}
