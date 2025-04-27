@@ -8,6 +8,12 @@
 .title-lg{
   font: var(--title-lg);
 }
+.title-md{
+  font: var(--title-md);
+}
+.title-color{
+  color: var(--gray-600);
+}
 .direction-row{
   flex-direction: row;
 }

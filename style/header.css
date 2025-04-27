@@ -1,4 +1,4 @@
-header{
+#primary{
   background-image: url(../assects/images/Background_Intro.png);
   background-size: cover;
   gap: 80px;
@@ -43,9 +43,6 @@ header{
 
       span{
         color: var(--red);
-      }
-      h1{
-        color: var(--gray-600);
       }
     }
   }
