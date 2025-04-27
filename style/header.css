@@ -17,7 +17,6 @@
       height: 112px;
       position: relative;
       img{
-        width: 100%;
         object-fit: cover;
         border-radius: 50%;
         border: solid var(--red);

@@ -14,6 +14,24 @@
 .title-color{
   color: var(--gray-600);
 }
+.info-text-color{
+  color: var(--gray-400);
+}
+
+/* flex */
 .direction-row{
   flex-direction: row;
+}
+
+/* grid */
+.grid{
+  display: grid;
+}
+
+.grid-cols-3{
+  grid-template-columns: repeat(3, 330px);
+}
+
+.gap-24{
+  gap: 24px;
 }
