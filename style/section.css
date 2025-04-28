@@ -35,6 +35,28 @@
       margin-bottom: 8px;
     }
   }
+}
 
+#my-services{
+  padding-block: 88px 120px;
+  gap: 56px;
+
+  header{
+    text-align: center;
+  }
+  header p{
+    color: var(--red);
+  }
+  #wrap-cards .card{
+    padding: 20px;
+    border: solid 2px var(--gray-200);
+    border-radius: 12px;
+    h3{
+      margin-bottom: 8px;
+    }
+    img{
+      margin-bottom: 20px;
+    }
+  }
 
 }

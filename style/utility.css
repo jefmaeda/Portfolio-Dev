@@ -32,6 +32,9 @@
   grid-template-columns: repeat(3, 330px);
 }
 
+.grid-cols-service{
+  grid-template-columns: repeat(3, 280px);
+}
 .gap-24{
   gap: 24px;
 }
