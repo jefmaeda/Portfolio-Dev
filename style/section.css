@@ -38,6 +38,7 @@
 }
 
 #my-services{
+  background-color: var(--gray-100);
   padding-block: 88px 120px;
   gap: 56px;
 
@@ -59,4 +60,36 @@
     }
   }
 
+}
+
+#contact{
+  background-image: url(../assects/images/Background_Contacts.png);
+  background-size: cover;
+  padding-block: 128px 200px;
+  text-align: center;
+  gap: 48px;
+  span{
+    color: var(--purple);
+  }
+
+  #links{
+    gap: 16px;
+
+    .social-button{
+      width: 350px;
+      background-color: var(--gray-300);
+      justify-content: space-between;
+      padding: 24px 20px;
+      border-radius: 8px;
+
+    }
+
+    .social-button:hover{
+      border: solid 1.5px var(--blue);
+      svg path{
+        fill: var(--blue);
+      }
+    }
+  }
+  
 }
