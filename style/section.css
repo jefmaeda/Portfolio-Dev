@@ -21,7 +21,7 @@
     transition-delay: 0.2s;
     }
     .card:hover{
-      border: solid 1.5px var(--gray-400);
+      outline: solid 1.5px var(--gray-400);
     }
 
     img{
@@ -85,7 +85,7 @@
     }
 
     .social-button:hover{
-      border: solid 1.5px var(--blue);
+      outline: 1.5px solid var(--blue);
       svg path{
         fill: var(--blue);
       }
