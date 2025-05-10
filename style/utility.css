@@ -33,11 +33,11 @@
 }
 
 .grid-cols-3{
-  grid-template-columns: repeat(3, 330px);
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 20rem));
 }
 
 .grid-cols-service{
-  grid-template-columns: repeat(3, 280px);
+    grid-template-columns: repeat(auto-fit, minmax(2rem, 18rem));
 }
 .gap-24{
   gap: 24px;
